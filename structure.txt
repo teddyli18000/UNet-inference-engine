@@ -1,0 +1,10 @@
+UNet-Inference-Engine/
+├── models/
+│   ├── __init__.py       # Makes the folder a package (can be empty)
+│   └── unet_model.py     # The U-Net architecture definition
+├── inputs/               # Place input images here
+├── outputs/              # Results will be saved here
+├── weights/              # Place your .pth file here
+├── predict.py            # Main inference script
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation
